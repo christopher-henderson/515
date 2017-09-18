@@ -1,0 +1,95 @@
+<!--
+  == For your convenience, this form can be processed by EasyChair
+  == automatically. You can fill out this form offline and then upload it
+  == to EasyChair. Several review forms can be uploaded simultaneously.
+  == You can modify your reviews as many times as you want.
+  ==
+  == When filling out the review form please mind the following rules:
+  ==
+  == (1) Blocks such as this are comments. EasyChair will ignore them.
+  ==     Do not write any text into these blocks as it will be ignored.
+  ==     You can add comments to the review form or remove them.
+  == (2) Write only into the tags where instructed. Do not modify any
+  ==     tags and attributes, or the review will become unusable and will
+  ==     be rejected by EasyChair.
+  -->
+<review id="v"
+        submission="XX"
+        title="Paper50"
+        authors="Author"
+        pc_member="Reviewer Name">
+<score id="v" name="Overall evaluation">
+<!--
+  == Select your choice from the options below and write its number below,
+  == before the </score> tag.
+  ==
+  == 3 strong accept
+  == 2 accept
+  == 1 weak accept
+  == 0 borderline paper
+  == -1 weak reject
+  == -2 reject
+  == -3 strong reject
+  -->
+  1
+</score>
+<score id="v" name="Reviewer's confidence">
+<!--
+  == Select your choice from the options below and write its number below,
+  == before the </score> tag.
+  ==
+  == 5 (expert)
+  == 4 (high)
+  == 3 (medium)
+  == 2 (low)
+  == 1 (none)
+  -->
+  3
+</score>
+<!-- ======== Review ======== -->
+<text id="v" name="Review">
+<!--
+  == Please provide a detailed review, including justification for your
+  == scores. This field is required unless you add an attachment..
+  -->
+  Well done! You conveyed quite a few of the ideals of Agile in such a short paper.
+
+  For future revisions I would like to see better organization of thoughts as well
+  as some English improvements. I am empathetic towards non-native speakers, and
+  I generally do not let imperfections bother me, however there were moments in
+  the paper where I was actually confused before I finally understood the intention.
+  For example, in the second paragraph of the introduction:
+
+  "Today a lot of predictable and repeatable jobs are done much faster often
+  by machines, things change more quickly."
+
+  This one sentence is actually harboring two independent thoughts:
+    1. That automation is rapidly increasing in the world.
+    2. That the technological landscape is rapidly changing as well.
+
+  Indeed, flowing from one thought to the next is one of the greater challenges
+  when doing any sort of written word. This is doubly so if English is not your first
+  language. If you improve the flow of your ideas on paper (from sentence to sentence,
+  from paragraph to paragraph) then your understanding of the topic will more readily
+  flow out as well.
+</text>
+<text id="x" name="Confidential remarks for the program committee">
+<!--
+  == If you wish to add any remarks intended only for PC members please
+  == write them below. These remarks will only be seen by the PC members
+  == having access to reviews for this submission. They will not be sent to
+  == the authors. This field is optional..
+  -->
+</text>
+<reviewer>
+  <!--
+    == If the review was written by (or with the help from) a subreviewer
+    == different from the PC member in charge, add information about
+    == the subreviewer below. Write subreviewer's first name, last name
+    == and email between the tags below.
+    -->
+  <first_name>  </first_name>
+  <last_name>   </last_name>
+  <email>  </email>
+</reviewer>
+</review>

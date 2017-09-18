@@ -1,0 +1,95 @@
+<!--
+  == For your convenience, this form can be processed by EasyChair
+  == automatically. You can fill out this form offline and then upload it
+  == to EasyChair. Several review forms can be uploaded simultaneously.
+  == You can modify your reviews as many times as you want.
+  ==
+  == When filling out the review form please mind the following rules:
+  ==
+  == (1) Blocks such as this are comments. EasyChair will ignore them.
+  ==     Do not write any text into these blocks as it will be ignored.
+  ==     You can add comments to the review form or remove them.
+  == (2) Write only into the tags where instructed. Do not modify any
+  ==     tags and attributes, or the review will become unusable and will
+  ==     be rejected by EasyChair.
+  -->
+<review id="v"
+        submission="XX"
+        title="Paper76"
+        authors="N/A"
+        pc_member="Reviewer Name">
+<score id="v" name="Overall evaluation">
+<!--
+  == Select your choice from the options below and write its number below,
+  == before the </score> tag.
+  ==
+  == 3 strong accept
+  == 2 accept
+  == 1 weak accept
+  == 0 borderline paper
+  == -1 weak reject
+  == -2 reject
+  == -3 strong reject
+  -->
+  -1
+</score>
+<score id="v" name="Reviewer's confidence">
+<!--
+  == Select your choice from the options below and write its number below,
+  == before the </score> tag.
+  ==
+  == 5 (expert)
+  == 4 (high)
+  == 3 (medium)
+  == 2 (low)
+  == 1 (none)
+  -->
+  3
+</score>
+<!-- ======== Review ======== -->
+<text id="v" name="Review">
+<!--
+  == Please provide a detailed review, including justification for your
+  == scores. This field is required unless you add an attachment..
+  -->
+  I understand that three pages is a very small amount of space for such a large
+  topic - I struggled with this as well. The paper is making a point of touching
+  on almost of all of the topics that Agile has to offer, which is just not possible
+  in a mere three pages. The result is that a large portion of the paper is
+  bullet points and lists of all of the topics that comprise Agile with very little
+  context or explanation. Since we have such a small amount of space available to us, I would
+  suggest distilling Agile into a small handful of quintessential topics (perhaps
+  iteration and one or two others?) and drilling deeper down into those topics.
+
+  To put it into programmer parlance, try out a depth-first-search instead of a
+  breadth-first-search! In a DFS you get to select a few of the most important
+  aspects and drill down into them completely. In a BFS, by the time you've
+  enumerated the first level of the graph, the paper is over!
+
+  Of course, continue to work on your English. It did not bother me greatly as
+  most of the ideas were still successfully conveyed. However, people in the
+  future will probably be jerks about it. They could be native speakers taking
+  cheap shots or they could be individuals who had to learn English as well
+  and now demand that you "suffer just a much as they did". I know
+  that the language is hard, keep it up!
+</text>
+<text id="x" name="Confidential remarks for the program committee">
+<!--
+  == If you wish to add any remarks intended only for PC members please
+  == write them below. These remarks will only be seen by the PC members
+  == having access to reviews for this submission. They will not be sent to
+  == the authors. This field is optional..
+  -->
+</text>
+<reviewer>
+  <!--
+    == If the review was written by (or with the help from) a subreviewer
+    == different from the PC member in charge, add information about
+    == the subreviewer below. Write subreviewer's first name, last name
+    == and email between the tags below.
+    -->
+  <first_name>  </first_name>
+  <last_name>   </last_name>
+  <email>  </email>
+</reviewer>
+</review>
